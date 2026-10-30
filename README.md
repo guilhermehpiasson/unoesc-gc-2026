@@ -19,7 +19,7 @@ npx jest -t "VL7"      # roda só um caso pelo ID da tabela da oficina
 ### Aula 29/10 — CI e Quality Gates
 
 ```bash
-npm install
+npm install 
 npm run ci                  # o MESMO que o job "qualidade" do GitHub Actions: lint → testes+cobertura → BDD → quality gate → auditoria
 npm run ci:completo         # + E2E em Chromium
 npm run lint                # só o ESLint
